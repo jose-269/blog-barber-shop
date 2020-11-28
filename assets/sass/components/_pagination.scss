@@ -1,0 +1,36 @@
+
+.pagination  .page-link {
+    color: $eerie-black;
+    
+}
+
+.pagination-section nav {
+    border-radius: 50px;
+}
+
+
+.pagination__item:first-child .page-link {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #777777;
+}
+
+.pagination__item:last-child .page-link {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.pagination {
+    width: 25%;
+    margin: 0 auto;
+    padding: 47px 0;
+    justify-content: center;
+    /*&__item .page-link:hover{
+        background-color: $nickel;
+        color: $white;
+    }*/
+    &__item:nth-child(3) .page-link {
+        background-color: $nickel;
+        color: $white;
+    }
+}

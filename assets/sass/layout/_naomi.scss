@@ -1,0 +1,74 @@
+.naomi-section {
+    margin: 58px 0 92px 0;
+    padding: 0 100px;
+    text-align: center;
+}
+@media only screen and (max-width: 992px){
+    .naomi-section {
+        margin: 61px 0 62px 0
+}
+}
+
+.naomi-title {
+    font-weight: $black-italic;
+    font-size: $x-large;
+    margin-bottom: 5px;
+    //padding-right: 58px;
+}
+
+.naomi-img {
+    width: 140px;
+    clip-path: circle(50%);
+}
+@media only screen and (max-width: 767px){
+    .naomi-img{
+    width: 131px;
+    }
+}
+
+
+
+.naomi-data p, a {
+    font-weight: $light;
+    font-size: $large;
+    margin: 0;
+    
+    color: $rudy-pink;
+    &:hover {
+        color: $raisin-black;
+        text-decoration: none;
+    }
+
+}
+
+.naomi-desc {
+    font-weight: $regular;
+    font-size: $small;
+    line-height: 35px; 
+    padding-top: 1rem;
+       
+}
+@media only screen and (max-width: 1200px ) and (min-width: 992px){
+    .naomi-desc {
+        font-size: 8px; 
+    }
+}
+
+
+
+.naomi_desc__container {
+    margin: auto 0;
+}
+
+.naomi-data__container {
+    padding-left: 50px;
+    margin: auto 0;
+}
+
+@media only screen and (max-width: 767px){
+    .naomi-data__container {
+        padding-left: 0px;
+        padding-top: 17px;
+    }  
+}
+

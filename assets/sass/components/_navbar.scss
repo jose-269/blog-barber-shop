@@ -1,0 +1,18 @@
+.nav-barra {
+    background-color: $eerie-black;
+    padding: 17.9px;
+
+&__link:hover {
+  color: $rudy-pink; 
+  text-decoration: none; 
+}    
+}
+
+.nav-barra__link {
+    color: $white;
+    padding: 8px 8px;
+}
+
+.logo-barber {
+    width: 78.37px;
+}

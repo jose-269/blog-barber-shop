@@ -1,0 +1,23 @@
+.main-date {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $large;
+    color: $raisin-black;
+    margin: 0;
+    padding: 74px 0 66px 100px;
+}
+
+.main-column {
+    font-weight: $light;
+    font-size: $medium;
+    color: $raisin-black;
+    padding: 0 100px 45px 100px ;
+    margin: 0;
+    line-height: 45px;
+}
+
+@media only screen and (max-width: 576px){
+  .main-column {
+    padding: 0 50px 45px 50px ;
+  }  
+}

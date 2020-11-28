@@ -1,0 +1,58 @@
+.button-section {
+    padding: 0 100px;
+}
+@media only screen and (max-width: 576px) {
+    .button-section {
+        padding: 0 50px;
+    }  
+}
+@media only screen and (max-width: 767px){
+    .button-section {
+        text-align: center;
+    }
+}
+
+.button {
+    height: 51px;
+    background-color: $nickel;
+    color: $white;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    
+}
+
+.button__share{
+    width: 115px;
+    margin-right: 12px;
+    &:hover {
+        background-color: $light-gray;
+        }
+}
+.button__comment {
+    width: 182px;
+    &:hover {
+        background-color: $light-gray;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .button__share {
+        width: 95px;
+        font-size: .9rem;
+    }
+    .button__comment {
+        width: 150px;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+    .button__share {
+        width: 80px;
+        font-size: .9;
+    }
+    .button__comment {
+        width: 120px;
+        font-size: .7rem;
+    }
+}
