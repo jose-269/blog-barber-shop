@@ -44,7 +44,7 @@ h1, h4 {
 }
 
 .footer-logo img {
-  width: 7.625rem;
+  width: 122px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -53,13 +53,13 @@ h1, h4 {
 }
 
 .footer-logo {
-  height: 12.875rem;
+  height: 206px;
   position: relative;
 }
 
 .naomi-section {
-  margin: 3.625rem 0 5.75rem 0;
-  padding: 0 6.25rem;
+  margin: 58px 0 92px 0;
+  padding: 0 100px;
   text-align: center;
 }
 
@@ -71,11 +71,11 @@ h1, h4 {
 .naomi-title {
   font-weight: 900;
   font-size: 30px;
-  margin-bottom: 0.3125rem;
+  margin-bottom: 5px;
 }
 
 .naomi-img {
-  width: 8.75rem;
+  width: 140px;
   clip-path: circle(50%);
 }
 
@@ -98,7 +98,7 @@ h1, h4 {
 .naomi-desc {
   font-weight: 400;
   font-size: 12px;
-  line-height: 2.1875rem;
+  line-height: 35px;
   padding-top: 1rem;
 }
 
@@ -112,7 +112,7 @@ h1, h4 {
 }
 
 .naomi-data__container {
-  padding-left: 3.125rem;
+  padding-left: 50px;
   margin: auto 0;
 }
 
@@ -146,7 +146,7 @@ h1, h4 {
   }
 }
 .button-section {
-  padding: 0 6.25rem;
+  padding: 0 100px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -160,23 +160,23 @@ h1, h4 {
   }
 }
 .button {
-  height: 3.1875rem;
+  height: 51px;
   background-color: #6C6E70;
   color: #fff;
   border: 1px solid #707070;
-  border-radius: 1.875rem;
+  border-radius: 30px;
 }
 
 .button__share {
-  width: 7.1875rem;
-  margin-right: 0.75rem;
+  width: 115px;
+  margin-right: 12px;
 }
 .button__share:hover {
   background-color: #D1D1D1;
 }
 
 .button__comment {
-  width: 11.375rem;
+  width: 182px;
 }
 .button__comment:hover {
   background-color: #D1D1D1;
@@ -213,19 +213,19 @@ h1, h4 {
 }
 
 .pagination__item:first-child .page-link {
-  border-top-left-radius: 3.125rem;
-  border-bottom-left-radius: 3.125rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
   color: #777777;
 }
 
 .pagination__item:last-child .page-link {
-  border-top-right-radius: 3.125rem;
-  border-bottom-right-radius: 3.125rem;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .pagination {
   margin: 0;
-  padding: 2.9375rem 0;
+  padding: 47px 0;
   justify-content: center;
   /*&__item .page-link:hover{
       background-color: $nickel;
@@ -255,4 +255,4 @@ h1, h4 {
   width: 4.9rem;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */

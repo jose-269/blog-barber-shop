@@ -9,19 +9,19 @@
 }
 
 .pagination__item:first-child .page-link {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
     color: #777777;
 }
 
 .pagination__item:last-child .page-link {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
 }
 
 .pagination {
     margin: 0 ;
-    padding: 47px 0;
+    padding: 2.9375rem 0;
     justify-content: center;
     /*&__item .page-link:hover{
         background-color: $nickel;

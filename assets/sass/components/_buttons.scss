@@ -1,5 +1,5 @@
 .button-section {
-    padding: 0 100px;
+    padding: 0 6.25rem;
 }
 @media only screen and (max-width: 576px) {
     .button-section {
@@ -13,23 +13,23 @@
 }
 
 .button {
-    height: 51px;
+    height: 3.1875rem;
     background-color: $nickel;
     color: $white;
     border: 1px solid #707070;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     
 }
 
 .button__share{
-    width: 115px;
-    margin-right: 12px;
+    width:  7.1875rem;
+    margin-right: 0.75rem;
     &:hover {
         background-color: $light-gray;
         }
 }
 .button__comment {
-    width: 182px;
+    width: 11.375rem;
     &:hover {
         background-color: $light-gray;
     }

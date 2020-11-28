@@ -1,6 +1,6 @@
 .naomi-section {
-    margin: 58px 0 92px 0;
-    padding: 0 100px;
+    margin: 3.625rem 0 5.75rem 0;
+    padding: 0 6.25rem;
     text-align: center;
 }
 @media only screen and (max-width: 992px){
@@ -12,12 +12,12 @@
 .naomi-title {
     font-weight: $black-italic;
     font-size: $x-large;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
     //padding-right: 58px;
 }
 
 .naomi-img {
-    width: 140px;
+    width: 8.75rem;
     clip-path: circle(50%);
 }
 @media only screen and (max-width: 767px){
@@ -44,7 +44,7 @@
 .naomi-desc {
     font-weight: $regular;
     font-size: $small;
-    line-height: 35px; 
+    line-height: 2.1875rem; 
     padding-top: 1rem;
        
 }
@@ -61,7 +61,7 @@
 }
 
 .naomi-data__container {
-    padding-left: 50px;
+    padding-left: 3.125rem;
     margin: auto 0;
 }
 

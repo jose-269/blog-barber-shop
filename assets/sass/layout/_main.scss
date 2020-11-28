@@ -4,16 +4,16 @@
     font-size: $large;
     color: $raisin-black;
     margin: 0;
-    padding: 74px 0 66px 100px;
+    padding: 4.625rem 0 4.125rem 6.25rem;
 }
 
 .main-column {
     font-weight: $light;
     font-size: $medium;
     color: $raisin-black;
-    padding: 0 100px 45px 100px ;
+    padding: 0 6.25rem 2.8125rem 6.25rem ;
     margin: 0;
-    line-height: 45px;
+    line-height: 2.8125rem;
 }
 
 @media only screen and (max-width: 576px){
