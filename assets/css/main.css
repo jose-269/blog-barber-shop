@@ -16,13 +16,11 @@ h1, h4 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding: 9rem 22rem;
   color: #fff;
 }
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -31,44 +29,14 @@ h1, h4 {
 .header-title {
   font-weight: 900;
   font-size: 70px;
+  width: 51.6%;
   margin: 0;
 }
 
-@media only screen and (max-width: 1319px) {
-  .header {
-    padding: 0 350px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .header {
-    padding: 0 7rem;
-  }
-}
 @media only screen and (max-width: 767px) {
-  .header {
-    padding: 0 60px;
-  }
-  .header .header-title {
+  .header-title {
     font-size: 40px;
-    width: 315px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .header {
-    padding: 0 8rem;
-  }
-  .header .header-title {
-    font-size: 40px;
-    width: 315px;
-  }
-}
-@media only screen and (max-width: 418px) {
-  .header {
-    padding: 0 0rem;
-  }
-  .header .header-title {
-    font-size: 30px;
-    width: 315px;
+    width: 76%;
   }
 }
 .footer-section {
@@ -177,10 +145,6 @@ h1, h4 {
     padding: 0 50px 45px 50px;
   }
 }
-.pagination-section {
-  background-color: #E6E7E7;
-}
-
 .button-section {
   padding: 0 100px;
 }
@@ -244,8 +208,8 @@ h1, h4 {
   color: #121619;
 }
 
-.pagination-section nav {
-  border-radius: 50px;
+.pagination-section {
+  background-color: #E6E7E7;
 }
 
 .pagination__item:first-child .page-link {
@@ -260,8 +224,7 @@ h1, h4 {
 }
 
 .pagination {
-  width: 25%;
-  margin: 0 auto;
+  margin: 0;
   padding: 47px 0;
   justify-content: center;
   /*&__item .page-link:hover{

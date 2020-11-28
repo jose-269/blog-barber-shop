@@ -4,10 +4,9 @@
     
 }
 
-.pagination-section nav {
-    border-radius: 50px;
+.pagination-section {
+    background-color: $platinum;
 }
-
 
 .pagination__item:first-child .page-link {
     border-top-left-radius: 50px;
@@ -21,8 +20,7 @@
 }
 
 .pagination {
-    width: 25%;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 47px 0;
     justify-content: center;
     /*&__item .page-link:hover{
